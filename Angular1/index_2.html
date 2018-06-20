@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="myModule">
+  <head>
+  </head>
+  <body>
+    <div ng-controller="myController">
+      <hr>
+<!-- elso modszer      -->
+        <input type="text" ng-model="user.name" placeholder="Név">
+        <br>
+        <input type="text" ng-model="user.job" placeholder="Munka">
+        <br>
+        <input type="text" ng-model="user.age" placeholder="Életkor">
+        <br>
+
+<!-- masik modszer a koteshez 
+      <h1 data-ng-bind="'Hello ' + yourName"></h1>
+-->      
+    </div>
+    <p ng-controller="myController2">{{greeting()}}!</p>
+    <!-- scripts -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

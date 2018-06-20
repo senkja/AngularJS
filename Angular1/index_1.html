@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="myModule">
+  <head>
+  </head>
+  <body>
+    <div ng-controller="myController">
+      <hr>
+<!-- elso modszer      -->
+        <h1>Hello {{user.name}}!</h1>
+        <h1>Your job is {{user.job}}</h1>
+        <!-- fv hivas age() is lehet itt... -->
+        <h1>You are {{user.age()}} years old</h1>
+
+<!-- masik modszer a koteshez 
+      <h1 data-ng-bind="'Hello ' + yourName"></h1>
+-->      
+    </div>
+    <p ng-controller="myController2">{{greeting()}}!</p>
+    <!-- scripts -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
