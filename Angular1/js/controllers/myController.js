@@ -25,7 +25,10 @@ $scope.user = {};
 $http.get("json/user.json")
   .then (
           function (data) {
-            console.log(data);
+            console.log('OK', data);
+            $scope.user.name = data.data.name;
+            $scope.user.job = data.data.job;
+            $scope.user.age = data.data.age;
           },
           function (data) {
             console.log('Error: ', data);

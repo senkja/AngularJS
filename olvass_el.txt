@@ -4,8 +4,8 @@ NodeJS
 
 Brackets 1.13
 Bõvítmények: 	AngularJS for Brackets
-		Emmet
-		Document Toolbar (opc.)
+		Emmet (kódkiegészítõ opc.)
+		Documents Toolbar (opc. - fülek a Bracket-ben)
 		Témák: monokai (opcionális - Nézet -> Themes...)
 hibakeresés -> Open user keymaps...
 
@@ -31,7 +31,7 @@ felül kell írni:
 }
 
 - Csak egyszeri változás kezelése {{::yourName}}, itt csak egyszer lesz kötés (a :: miatt)
-- AngularJS alkalmazás szervezése, felépítése (patterns), JS mappaán belül több mappa létrehozása: controllers, lib
+- AngularJS alkalmazás szervezése, felépítése (patterns), JS mappán belül több mappa létrehozása: controllers, lib
 - Nagy alkalamazásoknál oldalanként célszerû struktúrálni a fájlokat (pl pages könyvtáron belül oldalanként új könyvtárakat hozzunk létre: view.html,controller.js,services.js pl minden page-hez) 
 
 
